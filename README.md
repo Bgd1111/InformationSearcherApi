@@ -1,0 +1,2 @@
+# InformationSearcherApi
+проект для практики
