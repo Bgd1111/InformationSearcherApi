@@ -1,0 +1,10 @@
+C:\Users\runkd\source\repos\PJ1\PJ1\bin\Debug\PJ1.exe.config
+C:\Users\runkd\source\repos\PJ1\PJ1\bin\Debug\PJ1.exe
+C:\Users\runkd\source\repos\PJ1\PJ1\bin\Debug\PJ1.pdb
+C:\Users\runkd\source\repos\PJ1\PJ1\obj\Debug\PJ1.csproj.AssemblyReference.cache
+C:\Users\runkd\source\repos\PJ1\PJ1\obj\Debug\ElectronicPartsFinder.Form1.resources
+C:\Users\runkd\source\repos\PJ1\PJ1\obj\Debug\PJ1.Properties.Resources.resources
+C:\Users\runkd\source\repos\PJ1\PJ1\obj\Debug\PJ1.csproj.GenerateResource.cache
+C:\Users\runkd\source\repos\PJ1\PJ1\obj\Debug\PJ1.csproj.CoreCompileInputs.cache
+C:\Users\runkd\source\repos\PJ1\PJ1\obj\Debug\PJ1.exe
+C:\Users\runkd\source\repos\PJ1\PJ1\obj\Debug\PJ1.pdb
