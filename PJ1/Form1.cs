@@ -248,6 +248,10 @@ namespace ElectronicPartsFinder
         public string Isp { get; set; } = "N/A";
         public string Org { get; set; } = "N/A";
     }
-
+    public class CryptoResult
+    {
+        public string Symbol { get; set; } = "";
+        public double Price { get; set; }
+    }
     
 }
