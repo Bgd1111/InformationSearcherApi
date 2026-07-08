@@ -32,7 +32,7 @@ namespace ElectronicPartsFinder
             string query = textBox1.Text.Trim();
             if (string.IsNullOrEmpty(query))
             {
-                MessageBox.Show("Введите IP-адрес или название криптовалюты", "Ошибка",
+                MessageBox.Show("Введите IP-адрес или название криптовалюты!", "Ошибка!",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
@@ -100,11 +100,7 @@ namespace ElectronicPartsFinder
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                 label3.Text = "Ошибка при запросе";
             }
-            finally
-            {
-                button1.Enabled = true;
-                button1.Text = "Поиск";
-            }
+            
         }
 
         private bool IsIPAddress(string text)
