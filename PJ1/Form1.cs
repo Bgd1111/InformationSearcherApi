@@ -100,7 +100,11 @@ namespace ElectronicPartsFinder
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                 label3.Text = "Ошибка при запросе";
             }
-            
+            finally
+            {
+                button1.Enabled = true;
+                button1.Text = "Поиск";
+            }
         }
 
         private bool IsIPAddress(string text)
@@ -177,7 +181,7 @@ namespace ElectronicPartsFinder
                 { "etc", "ethereum-classic" },
                 { "ltc", "litecoin" },
                 { "avax", "avalanche-2" },
-                { "uni", "uniswap" },
+                { "uni", "unisap" },
                 { "atom", "cosmos" },
             };
 
@@ -245,9 +249,5 @@ namespace ElectronicPartsFinder
         public string Org { get; set; } = "N/A";
     }
 
-    public class CryptoResult
-    {
-        public string Symbol { get; set; } = "";
-        public double Price { get; set; }
-    }
+    
 }
