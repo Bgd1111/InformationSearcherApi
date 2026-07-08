@@ -183,9 +183,6 @@ namespace ElectronicPartsFinder
                 { "avax", "avalanche-2" },
                 { "uni", "uniswap" },
                 { "atom", "cosmos" },
-                { "trx", "tron" },
-                { "shib", "shiba-inu" },
-                { "near", "near" }
             };
 
             if (cryptoMap.TryGetValue(inputSymbol.ToLower(), out string coinId))
